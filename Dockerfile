@@ -1,16 +1,6 @@
-ARG BUILDER_IMAGE
-FROM --platform=$BUILDPLATFORM ${BUILDER_IMAGE} as builder
-WORKDIR /clusterpedia
-
-ARG BIN_NAME
-ARG TARGETARCH
-RUN GOARCH=${TARGETARCH} /builder.sh ${BIN_NAME}
-
-FROM alpine:3.18.9
-RUN apk add --no-cache gcompat
-
-# https://pkg.go.dev/net#hdr-Name_Resolution
-ENV GODEBUG=netdns=go
-
-ARG BIN_NAME
-COPY --from=builder /clusterpedia/bin/${BIN_NAME} /usr/local/bin/${BIN_NAME}
+FROM registry.cn-hangzhou.aliyuncs.com/acejilam/centos:8
+# RUN yum install epel-release vim wget htop -y
+RUN rm -rf /etc/yum.repos.d/* && curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-8.repo
+RUN yum clean all && yum -y install nmap-ncat net-tools
+WORKDIR /
+COPY ./bin/* /usr/local/bin/

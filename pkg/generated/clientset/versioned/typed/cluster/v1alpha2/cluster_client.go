@@ -5,7 +5,7 @@ package v1alpha2
 import (
 	"net/http"
 
-	v1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	v1alpha2 "xxxxx/api/cluster/v1alpha2"
 	"xxxxx/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )

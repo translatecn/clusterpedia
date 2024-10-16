@@ -12,7 +12,7 @@ import (
 	genericrequest "k8s.io/apiserver/pkg/endpoints/request"
 	genericrest "k8s.io/apiserver/pkg/registry/rest"
 
-	"github.com/clusterpedia-io/api/clusterpedia/v1beta1"
+	"xxxxx/api/clusterpedia/v1beta1"
 	"xxxxx/pkg/utils/request"
 )
 
@@ -69,6 +69,7 @@ func (r *REST) Connect(ctx context.Context, prefixPath string, _ runtime.Object,
 		return nil, fmt.Errorf("missing RequestInfo")
 	}
 
+	fmt.Println(info)
 	return http.HandlerFunc(func(writer http.ResponseWriter, req *http.Request) {
 		// not copy request context
 		req = req.Clone(req.Context())

@@ -22,7 +22,7 @@ import (
 	genericstorage "k8s.io/apiserver/pkg/storage"
 	"k8s.io/client-go/tools/cache"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
+	internal "xxxxx/api/clusterpedia"
 	"xxxxx/pkg/storage"
 )
 

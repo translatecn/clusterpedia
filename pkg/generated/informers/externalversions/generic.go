@@ -5,8 +5,8 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
-	v1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	v1alpha2 "xxxxx/api/cluster/v1alpha2"
+	v1alpha1 "xxxxx/api/policy/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

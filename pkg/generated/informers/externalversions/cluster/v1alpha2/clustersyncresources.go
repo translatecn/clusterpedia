@@ -6,7 +6,7 @@ import (
 	"context"
 	time "time"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 	versioned "xxxxx/pkg/generated/clientset/versioned"
 	internalinterfaces "xxxxx/pkg/generated/informers/externalversions/internalinterfaces"
 	v1alpha2 "xxxxx/pkg/generated/listers/cluster/v1alpha2"

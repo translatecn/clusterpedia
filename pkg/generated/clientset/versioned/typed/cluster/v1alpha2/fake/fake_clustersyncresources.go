@@ -5,7 +5,7 @@ package fake
 import (
 	"context"
 
-	v1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	v1alpha2 "xxxxx/api/cluster/v1alpha2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	types "k8s.io/apimachinery/pkg/types"

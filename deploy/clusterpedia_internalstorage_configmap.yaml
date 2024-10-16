@@ -1,0 +1,66 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: clusterpedia-internalstorage
+  namespace: clusterpedia-system
+data:
+  internalstorage-config.yaml: |
+    type: "mysql"
+    host: "clusterpedia-internalstorage-mysql"
+    port: 3306
+    user: root
+    database: "clusterpedia"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: clusterpedia-internalstorage-mysql
+  name: clusterpedia-internalstorage-mysql
+  namespace: clusterpedia-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: clusterpedia-internalstorage-mysql
+  template:
+    metadata:
+      labels:
+        app: clusterpedia-internalstorage-mysql
+    spec:
+      containers:
+        - image: registry.cn-hangzhou.aliyuncs.com/acejilam/mysql:5.7.43
+          name: clusterpedia-internalstorage-mysql
+          env:
+            - name: MYSQL_DATABASE
+              value: "clusterpedia"
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: internalstorage-password
+                  key: password
+          imagePullPolicy: IfNotPresent
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: clusterpedia-internalstorage-mysql
+    release: clusterpedia-internalstorage-mysql
+  name: clusterpedia-internalstorage-mysql
+  namespace: clusterpedia-system
+spec:
+  ports:
+    - name: mysql
+      port: 3306
+      protocol: TCP
+      targetPort: 3306
+  selector:
+    app: clusterpedia-internalstorage-mysql
+  #目前sessionAffinity可以提供"None""ClientIP"两种设定:
+  #None: 以round robin的方式轮询下面的Pods。
+  #ClientIP: 以client ip的方式固定request到同一台机器。
+  sessionAffinity: None
+  type: ClusterIP
+#status:
+#  loadBalancer: {}

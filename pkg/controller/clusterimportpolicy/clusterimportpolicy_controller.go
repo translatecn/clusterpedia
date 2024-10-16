@@ -22,7 +22,7 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	policyv1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	policyv1alpha1 "xxxxx/api/policy/v1alpha1"
 	"xxxxx/pkg/controller"
 	clientset "xxxxx/pkg/generated/clientset/versioned"
 	"xxxxx/pkg/generated/clientset/versioned/scheme"

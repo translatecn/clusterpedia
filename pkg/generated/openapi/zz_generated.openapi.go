@@ -13,36 +13,36 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResources":          schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResources(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResourcesStatus":    schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResourcesStatus(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceStatus":          schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceStatus(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceSyncCondition":   schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceSyncCondition(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSpec":                    schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSpec(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterStatus":                  schema_clusterpedia_io_api_cluster_v1alpha2_ClusterStatus(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResources":           schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResources(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResourcesList":       schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesList(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResourcesSpec":       schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesSpec(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.PediaCluster":                   schema_clusterpedia_io_api_cluster_v1alpha2_PediaCluster(ref),
-		"github.com/clusterpedia-io/api/cluster/v1alpha2.PediaClusterList":               schema_clusterpedia_io_api_cluster_v1alpha2_PediaClusterList(ref),
-		"github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResource":         schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResource(ref),
-		"github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResourceList":     schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceList(ref),
-		"github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResourceType":     schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceType(ref),
-		"github.com/clusterpedia-io/api/clusterpedia/v1beta1.ListOptions":                schema_clusterpedia_io_api_clusterpedia_v1beta1_ListOptions(ref),
-		"github.com/clusterpedia-io/api/clusterpedia/v1beta1.Resources":                  schema_clusterpedia_io_api_clusterpedia_v1beta1_Resources(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.BaseReferenceResourceTemplate":   schema_clusterpedia_io_api_policy_v1alpha1_BaseReferenceResourceTemplate(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicy":             schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicy(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicyList":         schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyList(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicySpec":         schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicySpec(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicyStatus":       schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyStatus(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.DependentResource":               schema_clusterpedia_io_api_policy_v1alpha1_DependentResource(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.IntendReferenceResourceTemplate": schema_clusterpedia_io_api_policy_v1alpha1_IntendReferenceResourceTemplate(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycle":           schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycle(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleList":       schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleList(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleSpec":       schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleSpec(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleStatus":     schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleStatus(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.Policy":                          schema_clusterpedia_io_api_policy_v1alpha1_Policy(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.ReferenceResourceTemplate":       schema_clusterpedia_io_api_policy_v1alpha1_ReferenceResourceTemplate(ref),
-		"github.com/clusterpedia-io/api/policy/v1alpha1.SourceType":                      schema_clusterpedia_io_api_policy_v1alpha1_SourceType(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterGroupResources":          schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResources(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterGroupResourcesStatus":    schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResourcesStatus(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterResourceStatus":          schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceStatus(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterResourceSyncCondition":   schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceSyncCondition(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterSpec":                    schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSpec(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterStatus":                  schema_clusterpedia_io_api_cluster_v1alpha2_ClusterStatus(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterSyncResources":           schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResources(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterSyncResourcesList":       schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesList(ref),
+		"xxxxx/api/cluster/v1alpha2.ClusterSyncResourcesSpec":       schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesSpec(ref),
+		"xxxxx/api/cluster/v1alpha2.PediaCluster":                   schema_clusterpedia_io_api_cluster_v1alpha2_PediaCluster(ref),
+		"xxxxx/api/cluster/v1alpha2.PediaClusterList":               schema_clusterpedia_io_api_cluster_v1alpha2_PediaClusterList(ref),
+		"xxxxx/api/clusterpedia/v1beta1.CollectionResource":         schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResource(ref),
+		"xxxxx/api/clusterpedia/v1beta1.CollectionResourceList":     schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceList(ref),
+		"xxxxx/api/clusterpedia/v1beta1.CollectionResourceType":     schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceType(ref),
+		"xxxxx/api/clusterpedia/v1beta1.ListOptions":                schema_clusterpedia_io_api_clusterpedia_v1beta1_ListOptions(ref),
+		"xxxxx/api/clusterpedia/v1beta1.Resources":                  schema_clusterpedia_io_api_clusterpedia_v1beta1_Resources(ref),
+		"xxxxx/api/policy/v1alpha1.BaseReferenceResourceTemplate":   schema_clusterpedia_io_api_policy_v1alpha1_BaseReferenceResourceTemplate(ref),
+		"xxxxx/api/policy/v1alpha1.ClusterImportPolicy":             schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicy(ref),
+		"xxxxx/api/policy/v1alpha1.ClusterImportPolicyList":         schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyList(ref),
+		"xxxxx/api/policy/v1alpha1.ClusterImportPolicySpec":         schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicySpec(ref),
+		"xxxxx/api/policy/v1alpha1.ClusterImportPolicyStatus":       schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyStatus(ref),
+		"xxxxx/api/policy/v1alpha1.DependentResource":               schema_clusterpedia_io_api_policy_v1alpha1_DependentResource(ref),
+		"xxxxx/api/policy/v1alpha1.IntendReferenceResourceTemplate": schema_clusterpedia_io_api_policy_v1alpha1_IntendReferenceResourceTemplate(ref),
+		"xxxxx/api/policy/v1alpha1.PediaClusterLifecycle":           schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycle(ref),
+		"xxxxx/api/policy/v1alpha1.PediaClusterLifecycleList":       schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleList(ref),
+		"xxxxx/api/policy/v1alpha1.PediaClusterLifecycleSpec":       schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleSpec(ref),
+		"xxxxx/api/policy/v1alpha1.PediaClusterLifecycleStatus":     schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleStatus(ref),
+		"xxxxx/api/policy/v1alpha1.Policy":                          schema_clusterpedia_io_api_policy_v1alpha1_Policy(ref),
+		"xxxxx/api/policy/v1alpha1.ReferenceResourceTemplate":       schema_clusterpedia_io_api_policy_v1alpha1_ReferenceResourceTemplate(ref),
+		"xxxxx/api/policy/v1alpha1.SourceType":                      schema_clusterpedia_io_api_policy_v1alpha1_SourceType(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.APIGroup":                                  schema_pkg_apis_meta_v1_APIGroup(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.APIGroupList":                              schema_pkg_apis_meta_v1_APIGroupList(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.APIResource":                               schema_pkg_apis_meta_v1_APIResource(ref),
@@ -167,7 +167,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResourcesStatus(ref
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceStatus"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterResourceStatus"),
 									},
 								},
 							},
@@ -178,7 +178,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterGroupResourcesStatus(ref
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceStatus"},
+			"xxxxx/api/cluster/v1alpha2.ClusterResourceStatus"},
 	}
 }
 
@@ -216,7 +216,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceStatus(ref commo
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceSyncCondition"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterResourceSyncCondition"),
 									},
 								},
 							},
@@ -227,7 +227,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterResourceStatus(ref commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterResourceSyncCondition"},
+			"xxxxx/api/cluster/v1alpha2.ClusterResourceSyncCondition"},
 	}
 }
 
@@ -356,7 +356,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSpec(ref common.Referenc
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResources"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterGroupResources"),
 									},
 								},
 							},
@@ -385,7 +385,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSpec(ref common.Referenc
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResources"},
+			"xxxxx/api/cluster/v1alpha2.ClusterGroupResources"},
 	}
 }
 
@@ -427,7 +427,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterStatus(ref common.Refere
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResourcesStatus"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterGroupResourcesStatus"),
 									},
 								},
 							},
@@ -443,7 +443,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterStatus(ref common.Refere
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResourcesStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
+			"xxxxx/api/cluster/v1alpha2.ClusterGroupResourcesStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
 	}
 }
 
@@ -476,14 +476,14 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResources(ref common
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResourcesSpec"),
+							Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterSyncResourcesSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResourcesSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"xxxxx/api/cluster/v1alpha2.ClusterSyncResourcesSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -520,7 +520,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesList(ref co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResources"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterSyncResources"),
 									},
 								},
 							},
@@ -531,7 +531,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesList(ref co
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSyncResources", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"xxxxx/api/cluster/v1alpha2.ClusterSyncResources", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -548,7 +548,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesSpec(ref co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResources"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterGroupResources"),
 									},
 								},
 							},
@@ -559,7 +559,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_ClusterSyncResourcesSpec(ref co
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterGroupResources"},
+			"xxxxx/api/cluster/v1alpha2.ClusterGroupResources"},
 	}
 }
 
@@ -592,20 +592,20 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_PediaCluster(ref common.Referen
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSpec"),
+							Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterStatus"),
+							Ref:     ref("xxxxx/api/cluster/v1alpha2.ClusterStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterSpec", "github.com/clusterpedia-io/api/cluster/v1alpha2.ClusterStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"xxxxx/api/cluster/v1alpha2.ClusterSpec", "xxxxx/api/cluster/v1alpha2.ClusterStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -642,7 +642,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_PediaClusterList(ref common.Ref
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/cluster/v1alpha2.PediaCluster"),
+										Ref:     ref("xxxxx/api/cluster/v1alpha2.PediaCluster"),
 									},
 								},
 							},
@@ -653,7 +653,7 @@ func schema_clusterpedia_io_api_cluster_v1alpha2_PediaClusterList(ref common.Ref
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/cluster/v1alpha2.PediaCluster", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"xxxxx/api/cluster/v1alpha2.PediaCluster", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -690,7 +690,7 @@ func schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResource(ref comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResourceType"),
+										Ref:     ref("xxxxx/api/clusterpedia/v1beta1.CollectionResourceType"),
 									},
 								},
 							},
@@ -725,7 +725,7 @@ func schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResource(ref comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResourceType", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "k8s.io/apimachinery/pkg/runtime.RawExtension"},
+			"xxxxx/api/clusterpedia/v1beta1.CollectionResourceType", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "k8s.io/apimachinery/pkg/runtime.RawExtension"},
 	}
 }
 
@@ -762,7 +762,7 @@ func schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceList(ref 
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResource"),
+										Ref:     ref("xxxxx/api/clusterpedia/v1beta1.CollectionResource"),
 									},
 								},
 							},
@@ -773,7 +773,7 @@ func schema_clusterpedia_io_api_clusterpedia_v1beta1_CollectionResourceList(ref 
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/clusterpedia/v1beta1.CollectionResource", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"xxxxx/api/clusterpedia/v1beta1.CollectionResource", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -1116,20 +1116,20 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicy(ref common.R
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicySpec"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.ClusterImportPolicySpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicyStatus"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.ClusterImportPolicyStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicySpec", "github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicyStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"xxxxx/api/policy/v1alpha1.ClusterImportPolicySpec", "xxxxx/api/policy/v1alpha1.ClusterImportPolicyStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -1166,7 +1166,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyList(ref comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicy"),
+										Ref:     ref("xxxxx/api/policy/v1alpha1.ClusterImportPolicy"),
 									},
 								},
 							},
@@ -1177,7 +1177,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicyList(ref comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.ClusterImportPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"xxxxx/api/policy/v1alpha1.ClusterImportPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -1190,7 +1190,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicySpec(ref comm
 					"source": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.SourceType"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.SourceType"),
 						},
 					},
 					"references": {
@@ -1208,7 +1208,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicySpec(ref comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.IntendReferenceResourceTemplate"),
+										Ref:     ref("xxxxx/api/policy/v1alpha1.IntendReferenceResourceTemplate"),
 									},
 								},
 							},
@@ -1240,7 +1240,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_ClusterImportPolicySpec(ref comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.IntendReferenceResourceTemplate", "github.com/clusterpedia-io/api/policy/v1alpha1.SourceType"},
+			"xxxxx/api/policy/v1alpha1.IntendReferenceResourceTemplate", "xxxxx/api/policy/v1alpha1.SourceType"},
 	}
 }
 
@@ -1409,20 +1409,20 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycle(ref common
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleSpec"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.PediaClusterLifecycleSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleStatus"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.PediaClusterLifecycleStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleSpec", "github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycleStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"xxxxx/api/policy/v1alpha1.PediaClusterLifecycleSpec", "xxxxx/api/policy/v1alpha1.PediaClusterLifecycleStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -1459,7 +1459,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleList(ref co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycle"),
+										Ref:     ref("xxxxx/api/policy/v1alpha1.PediaClusterLifecycle"),
 									},
 								},
 							},
@@ -1470,7 +1470,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleList(ref co
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.PediaClusterLifecycle", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"xxxxx/api/policy/v1alpha1.PediaClusterLifecycle", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -1483,7 +1483,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleSpec(ref co
 					"source": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.DependentResource"),
+							Ref:     ref("xxxxx/api/policy/v1alpha1.DependentResource"),
 						},
 					},
 					"references": {
@@ -1501,7 +1501,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleSpec(ref co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.ReferenceResourceTemplate"),
+										Ref:     ref("xxxxx/api/policy/v1alpha1.ReferenceResourceTemplate"),
 									},
 								},
 							},
@@ -1526,7 +1526,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleSpec(ref co
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.DependentResource", "github.com/clusterpedia-io/api/policy/v1alpha1.ReferenceResourceTemplate"},
+			"xxxxx/api/policy/v1alpha1.DependentResource", "xxxxx/api/policy/v1alpha1.ReferenceResourceTemplate"},
 	}
 }
 
@@ -1556,7 +1556,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleStatus(ref 
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/clusterpedia-io/api/policy/v1alpha1.DependentResource"),
+										Ref:     ref("xxxxx/api/policy/v1alpha1.DependentResource"),
 									},
 								},
 							},
@@ -1566,7 +1566,7 @@ func schema_clusterpedia_io_api_policy_v1alpha1_PediaClusterLifecycleStatus(ref 
 			},
 		},
 		Dependencies: []string{
-			"github.com/clusterpedia-io/api/policy/v1alpha1.DependentResource", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
+			"xxxxx/api/policy/v1alpha1.DependentResource", "k8s.io/apimachinery/pkg/apis/meta/v1.Condition"},
 	}
 }
 

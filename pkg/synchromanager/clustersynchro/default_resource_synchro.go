@@ -18,7 +18,7 @@ import (
 	"k8s.io/klog/v2"
 	metricsstore "k8s.io/kube-state-metrics/v2/pkg/metrics_store"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 	"xxxxx/pkg/runtime/informer"
 	"xxxxx/pkg/storage"
 	"xxxxx/pkg/synchromanager/features"

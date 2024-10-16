@@ -25,7 +25,7 @@ import (
 	metricsstore "k8s.io/kube-state-metrics/v2/pkg/metrics_store"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 	"xxxxx/pkg/controller"
 	crdclientset "xxxxx/pkg/generated/clientset/versioned"
 	"xxxxx/pkg/generated/informers/externalversions"

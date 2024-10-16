@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: manager
-        image: ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager:v0.8.0
+        image: myself:v1
         command:
         - /usr/local/bin/clustersynchro-manager
         - --storage-config=/etc/clusterpedia/storage/internalstorage-config.yaml
@@ -38,6 +38,7 @@ spec:
         - name: internalstorage-config
           mountPath: /etc/clusterpedia/storage
           readOnly: true
+        imagePullPolicy: IfNotPresent
       serviceAccountName: clusterpedia-clustersynchro-manager
       volumes:
       - name: internalstorage-config

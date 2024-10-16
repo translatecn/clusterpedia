@@ -22,8 +22,8 @@ import (
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
-	policyv1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
+	policyv1alpha1 "xxxxx/api/policy/v1alpha1"
 	"xxxxx/pkg/controller"
 	clientset "xxxxx/pkg/generated/clientset/versioned"
 	"xxxxx/pkg/generated/clientset/versioned/scheme"

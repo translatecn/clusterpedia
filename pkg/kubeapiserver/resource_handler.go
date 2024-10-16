@@ -15,7 +15,7 @@ import (
 	"k8s.io/apiserver/pkg/warning"
 	"k8s.io/klog/v2"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 	clusterlister "xxxxx/pkg/generated/listers/cluster/v1alpha2"
 	"xxxxx/pkg/kubeapiserver/discovery"
 	"xxxxx/pkg/utils/request"

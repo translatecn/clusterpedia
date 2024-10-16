@@ -18,7 +18,7 @@ import (
 	apiregistrationv1api "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1"
 	apiregistrationv1helper "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1/helper"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 )
 
 type ResourcesInterface interface {

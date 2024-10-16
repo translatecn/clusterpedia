@@ -19,7 +19,7 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/utils/strings/slices"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
+	internal "xxxxx/api/clusterpedia"
 	"xxxxx/pkg/runtime/scheme"
 	utilwatch "xxxxx/pkg/utils/watch"
 )

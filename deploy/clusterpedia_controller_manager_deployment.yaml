@@ -23,7 +23,9 @@ spec:
     spec:
       containers:
       - name: manager
-        image: ghcr.io/clusterpedia-io/clusterpedia/controller-manager:v0.8.0
+        image: myself:v1
         command:
         - /usr/local/bin/controller-manager
+        imagePullPolicy: IfNotPresent
       serviceAccountName: clusterpedia-controller-manager
+

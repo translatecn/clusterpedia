@@ -5,7 +5,7 @@ package v1alpha1
 import (
 	"context"
 
-	v1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	v1alpha1 "xxxxx/api/policy/v1alpha1"
 	scheme "xxxxx/pkg/generated/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

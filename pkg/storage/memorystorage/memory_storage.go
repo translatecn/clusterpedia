@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
+	internal "xxxxx/api/clusterpedia"
 	"xxxxx/pkg/storage"
 	cache "xxxxx/pkg/storage/memorystorage/watchcache"
 )

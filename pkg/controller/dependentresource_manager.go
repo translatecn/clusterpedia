@@ -15,7 +15,7 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog/v2"
 
-	policyv1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	policyv1alpha1 "xxxxx/api/policy/v1alpha1"
 	"xxxxx/pkg/runtime/informer"
 )
 

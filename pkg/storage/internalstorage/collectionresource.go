@@ -4,7 +4,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
+	internal "xxxxx/api/clusterpedia"
 	"xxxxx/pkg/runtime/scheme"
 )
 

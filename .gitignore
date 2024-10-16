@@ -35,3 +35,4 @@ apiserver.local.config
 *.db
 vendor
 .idea
+bin

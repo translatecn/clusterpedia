@@ -3,8 +3,8 @@
 package scheme
 
 import (
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
-	policyv1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
+	policyv1alpha1 "xxxxx/api/policy/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

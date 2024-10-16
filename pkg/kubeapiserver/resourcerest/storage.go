@@ -16,9 +16,9 @@ import (
 	storeerr "k8s.io/apiserver/pkg/storage/errors"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
-	"github.com/clusterpedia-io/api/clusterpedia/scheme"
-	"github.com/clusterpedia-io/api/clusterpedia/v1beta1"
+	internal "xxxxx/api/clusterpedia"
+	"xxxxx/api/clusterpedia/scheme"
+	"xxxxx/api/clusterpedia/v1beta1"
 	"xxxxx/pkg/kubeapiserver/printers"
 	"xxxxx/pkg/storage"
 	"xxxxx/pkg/utils/negotiation"

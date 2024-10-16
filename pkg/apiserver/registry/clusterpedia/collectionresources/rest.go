@@ -17,9 +17,9 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/klog/v2"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
-	"github.com/clusterpedia-io/api/clusterpedia/scheme"
-	"github.com/clusterpedia-io/api/clusterpedia/v1beta1"
+	internal "xxxxx/api/clusterpedia"
+	"xxxxx/api/clusterpedia/scheme"
+	"xxxxx/api/clusterpedia/v1beta1"
 	resourceconfigfactory "xxxxx/pkg/runtime/resourceconfig/factory"
 	"xxxxx/pkg/storage"
 	"xxxxx/pkg/utils"

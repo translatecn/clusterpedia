@@ -16,7 +16,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 
-	internal "github.com/clusterpedia-io/api/clusterpedia"
+	internal "xxxxx/api/clusterpedia"
 )
 
 const (

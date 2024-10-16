@@ -6,7 +6,7 @@ import (
 	"context"
 	time "time"
 
-	policyv1alpha1 "github.com/clusterpedia-io/api/policy/v1alpha1"
+	policyv1alpha1 "xxxxx/api/policy/v1alpha1"
 	versioned "xxxxx/pkg/generated/clientset/versioned"
 	internalinterfaces "xxxxx/pkg/generated/informers/externalversions/internalinterfaces"
 	v1alpha1 "xxxxx/pkg/generated/listers/policy/v1alpha1"

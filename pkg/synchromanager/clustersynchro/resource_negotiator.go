@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog/v2"
 
-	clusterv1alpha2 "github.com/clusterpedia-io/api/cluster/v1alpha2"
+	clusterv1alpha2 "xxxxx/api/cluster/v1alpha2"
 	"xxxxx/pkg/runtime/discovery"
 	resourceconfigfactory "xxxxx/pkg/runtime/resourceconfig/factory"
 	"xxxxx/pkg/runtime/scheme"
